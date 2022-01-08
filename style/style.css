@@ -9,7 +9,13 @@ html {
   box-sizing: border-box;
   font-size: 100%;
 }
-
+a {
+  color: #2f2f2f;
+  text-decoration: underline;
+}
+a:hover {
+  background-color: #fdfd96;
+}
 ::-moz-selection {
   /* Code for Firefox */
   background: #fdfd96;
@@ -22,18 +28,34 @@ html {
 body {
   font-family: Inter, Arial, Helvetica, sans-serif !important;
   font-size: 18px;
-  max-width: 660px;
-  margin: auto;
+  /* max-width: 660px; */
+  margin: 0;
+  padding: 0;
   line-height: 1.5em;
   color: #2f2f2f;
+}
+
+/* ----------------------------------------------------- */
+.container{
   padding: 2% 5%;
 }
-a {
-  color: #2f2f2f;
-  text-decoration: underline;
+
+
+/* NAVIGATION */
+.navigation{
+  border-bottom: 1px solid #ddd;
+  padding: 1% 5%;
+  margin: 0%;
 }
-a:hover {
-  background-color: #fdfd96;
+
+.logo{
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.post-content{
+  max-width: 680px;
+  /* margin:auto; */
 }
 .post-content > p,
 .post-content > ul > li,
