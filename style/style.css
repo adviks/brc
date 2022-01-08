@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  font-family: "Jones*",Inter, Arial, Helvetica, sans-serif !important;
+  font-family: Inter, Arial, Helvetica, sans-serif !important;
   font-size: 18px;
   max-width: 660px;
   margin: auto;
@@ -116,8 +116,8 @@ pre code {
 
 @font-face {
   font-family: "Hyde";
-  src: url("Hyde-Bold.woff2") format("woff2"),
-    url("Hyde-Bold.woff") format("woff");
+  src: url("cdn/fonts/Hyde/Hyde-Bold.woff2") format("woff2"),
+    url("cdn/fonts/Hyde/Hyde-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -125,8 +125,8 @@ pre code {
 
 @font-face {
   font-family: "Hyde";
-  src: url("Hyde-Italic.woff2") format("woff2"),
-    url("Hyde-Italic.woff") format("woff");
+  src: url("cdn/fonts/Hyde/Hyde-Italic.woff2") format("woff2"),
+    url("cdn/fonts/Hyde/Hyde-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -134,8 +134,8 @@ pre code {
 
 @font-face {
   font-family: "Hyde";
-  src: url("Hyde-Regular.woff2") format("woff2"),
-    url("Hyde-Regular.woff") format("woff");
+  src: url("cdn/fonts/Hyde/Hyde-Regular.woff2") format("woff2"),
+    url("cdn/fonts/Hyde/Hyde-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
